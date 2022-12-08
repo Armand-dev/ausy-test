@@ -45,8 +45,8 @@
                                 <td>{{ $registration->department }}</td>
                                 <td>{{ 1 + $registration->plus_one + $registration->kids }}</td>
                                 <td>
-                                    <button class="btn btn-danger  " data-toggle="modal" data-target="#my-modal">Delete</button>
-                                    <div id="my-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                                    <button class="btn btn-danger  " data-toggle="modal" data-target="#my-modal-{{ $registration->id }}">Delete</button>
+                                    <div id="my-modal-{{ $registration->id }}" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
                                         <div class="modal-dialog modal-dialog-centered" role="document">
                                             <div class="modal-content border-0">
                                                 <div class="modal-body p-0">

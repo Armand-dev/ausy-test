@@ -26,7 +26,7 @@ Now you should be able to see the app. (ex: ``` http://127.0.0.1:8000```, port m
 ## About the app
 
 There is an admin panel and an invite screen.
-By design there is nothing displayed on root ```http://127.0.0.1:8000/``` because the requirements said that there should a mandatory department in the url.
+By design there is nothing displayed on root ```http://127.0.0.1:8000/``` because the requirements said that there should be a mandatory department in the url.
 
 As an admin you should go to ```http://127.0.0.1:8000/registrations```, should prompt you to login. 
 
